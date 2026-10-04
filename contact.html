@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+        <!-------------header-------------->
+        <header class="header">
+            <a href="#"><img src="./images/logo3.png" alt="logo"></a>
+            <div class="navMenu" id="navMenu">
+                <i class='bx bx-window-close' onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Srevices</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="openMenu()"></i>
+        </header>
+        <!-------------sub-header session-------------->
+        <section class="sub-header" id="sub-header">
+            <h1>Contact <span>Me!</span></h1>
+        </section>
+        <!-------------contact session-------------->
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.8729173949405!2d3.5210200741009676!3d6.6626673933322555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103be939ce473fa5%3A0x8273a47692ff0027!2s4%20Alhaji%20Adekilekun%20St%2C%20Ikorodu%2C%20104101%2C%20Lagos!5e0!3m2!1sen!2sng!4v1790715825297!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+         <section class="contact" id="contact">
+            <div class="contact-text">
+                <h4 class="dot">Whatever your project may be....</h4>
+                <p>Let's build something great together. For professional website design services or technology consulting, feel free to reach out.</p>
+                <div class="list">
+                    <li><a href="#">+2348038486148</a></li>
+                    <li><a href="#">ismailadees@gmail.com</a></li>
+                    <li><a href="#">Like, Share & Subscribe</a></li>
+                </div>
+                <div class="icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bx-x' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="name" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="number" placeholder="Your Mobile Number" required>
+                    <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You?" required></textarea>
+                    <input type="submit" value="Send Message" class="submit"> 
+                </form>
+            </div>
+         </section>
+         <!-------------footer-------------->
+         <footer class="footer">
+            <div class="attribution">
+                <p>Design With <i class='bx bx-heart'></i> By Ismail</p>
+            </div>
+            <div class="move-up">
+                <a href="#sub-header"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+
+         </footer>
+         <!-- JS for toggle menu -->
+          <script>
+            var navMenu = document.getElementById("navMenu");
+
+            function openMenu() {
+                navMenu.style.right = "0";
+            }
+            function closeMenu() {
+                navMenu.style.right = "-200px";
+            }
+
+          </script>
+
+
+         
+        
+        
+    </body>
+</html>
